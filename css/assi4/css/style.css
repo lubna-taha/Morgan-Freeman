@@ -1,0 +1,759 @@
+/* <!-- s t a r t     global   s t y l e    --> */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya ";
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    line-height: 25px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* <!-- e n d         global   s t y l e    --> */
+
+/* <!-- s t a r t     h o m e   s e c t i o n  --> */
+.home {
+    background-image: url('./hero\ img.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.navlogo {
+    float: left;
+    width: 50%;
+}
+
+.navlinks .a-home {
+    color: #ff305b;
+}
+
+.navlinks {
+    float: right;
+    width: 50%;
+}
+
+.navlogo a {
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #ff305b;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.navlinks a {
+    float: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.navlinks li {
+    list-style-type: none;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nav li {
+    float: left;
+    color: white;
+}
+
+.homecontent {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.homecontent h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff305b;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.homecontent h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 50px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.homecontent h4 {
+    font-size: 26px;
+    font-weight: 300;
+    color: white;
+    text-transform: capitalize;
+}
+
+/* <!-- e n d        ho m e     s e c t i o n --> */
+
+/* <!-- /* s t a r t     hello   s e c t i o n  */
+.hello {
+    background-color: rgb(249, 250, 250);
+    height: 100%;
+    padding top: 80;
+    : 80px 0;
+}
+
+
+
+
+.photo img {
+    width: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border-radius: 5px;
+    border: 5px;
+}
+
+.about {
+    padding: 100px;
+    /* height: 80%; */
+}
+
+.photo {
+    float: left;
+    width: 400px;
+    text-align: center;
+    border: 10px solid rgb(53, 52, 52);
+    border-radius: 5px;
+}
+
+.introduction {
+    float: right;
+    width: 50%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.introduction h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    font-family: 'Source Sans 3', sans-serif;
+    padding-left: 13px;
+    text-transform: uppercase;
+    color: #333;
+    position: relative;
+}
+
+.introduction h2::before {
+    content: "";
+    background-color: #ff305b;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+
+
+.introduction p {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #555555;
+}
+
+.profile-about ul {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+    width: 50%;
+
+}
+
+.profile-about li {
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 35px;
+
+}
+
+.introduction button {
+    border: none;
+    background-color: #ff305b;
+    border-radius: 4px;
+    padding: 10px 24px;
+    color: white;
+    margin-left: 5px;
+}
+
+
+/* <!-- /* end     hello   s e c t i o n  */
+
+/* s t a r t     our service   s e c t i o n  */
+
+.our-services {
+    background: #f1f1f1;
+    height: 60%;
+    padding: 80px 0 34px;
+}
+
+.ourservices-header {
+    margin-bottom: 40px;
+
+}
+
+.ourservices-header h2 {
+    color: #333;
+    ;
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ourservices-header h2::after {
+    content: "";
+    background-color: #ff305b;
+    bottom: -20;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.service {
+    /* background-color: blue; */
+    float: left;
+    width: 25%;
+    ;
+    padding: 15px 15px;
+}
+
+.service .inner {
+    /* background-color: rgb(103, 156, 67); */
+    text-align: center;
+    transition: 0.3s all;
+
+
+}
+
+.service .inner:hover {
+    background-color: white;
+    transform: scale(1.07);
+}
+
+.service h3 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-family: "Roboto", sans-serif;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.service i {
+    width: 30;
+    padding: 15px 0;
+    font-size: 25px;
+
+    text-align: center;
+}
+
+/* e.n.d     our service   s e c t i o n  */
+
+/* s t a r t     Our Portfolio   s e c t i o n  */
+
+.our-portfolio {
+    /* background-color: #513838; */
+    height: auto;
+    padding: 80px 0 50px;
+
+}
+
+.portfolio-header {
+    /* background-color: #ff305b; */
+}
+
+.portfolio-header h2 {
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 30px;
+    color: #333;
+    ;
+
+}
+
+.portfolio-header h2::after {
+    content: "";
+    background-color: #ff305b;
+    bottom: -20;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.portfolio-header ul {
+    /* background-color: #57cc5d; */
+    list-style-type: none;
+    padding-left: 50px;
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+
+.portfolio-header li {
+    /* background-color: #287b5a; */
+    text-decoration: none;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 3px 12px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolio-items {
+    /* background-color: #9e2020; */
+
+}
+
+.portfolio-items .inner {
+    /* background-color: #120f29;     */
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    transition: all;
+}
+
+.portfolio-items .inner:hover {
+    background-color: ;
+}
+
+.portfolio-items img {
+    width: 100%;
+    */ float: left:;
+    ;
+    vertical-align: middle;
+    transition: 1s;
+
+}
+
+.portfolio-items img:hover {
+    /* transform: scale(0.9); */
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* e.n.d     Our Portfolio   s e c t i o n  */
+
+/* s t a r t     numbers   s e c t i o n  */
+.numbers-section {
+    /* background-color: #ff305b; */
+    height: 40%;
+    ;
+    background: #f1f1f1;
+    padding: 80px 0
+}
+
+.numbers {
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.users {
+    text-align: center;
+    ;
+    float: left;
+    width: 25%;
+}
+
+.numbers h3 {
+    font-size: 26px;
+    margin: 0 0 10px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.numbers p {
+    font-weight: 400;
+    color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.users i {
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+
+/* e.n.d     numbers   s e c t i o n  */
+
+/* s t a r t     Client's Feedback   s e c t i o n  */
+
+
+
+.Feedback {
+    height: 80%;
+
+    padding: 80px 0
+}
+
+.feedback-header {}
+
+.feedback-header h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.feedback-header h2::after {
+    content: "";
+    bottom: -20;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.feedback-client {
+
+    background: #f1f1f1;
+    width: 970px;
+    height: 300px;
+}
+
+.feedback-info h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    font-size: 24px;
+}
+
+.feedback-info p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.feedback-info a {
+    font-family:
+        "Source Sans Pro"
+        sans-serif;
+    font-size: 15px;
+    color: RGB(119, 119, 119);
+}
+
+.feedback-client .feedback-photo {
+
+    height: 40x;
+    float: left;
+    width: 50%;
+    padding-top: 25px;
+}
+
+.feedback-client .feedback-info {
+
+    /* background-color: rgb(20, 40, 15); */
+}
+
+.feedback-client .feedback-info {
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.feedback-client .feedback-photo img {
+    float: right;
+    border-radius: 50%;
+    width: 25%;
+    position: relative;
+    right: 10px;
+
+}
+
+
+
+
+
+/* e.n.d     Client's Feedback   s e c t i o n  */
+
+
+/* s t a r t     Our Blog   s e c t i o n  */
+.ourblog {
+    background: #f1f1f1;
+    padding: 80px 0 50px;
+    height: 100%;
+}
+
+.blog-header h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: capitalize;
+    color: #333;
+    ;
+}
+
+.blog-header h2::after {
+    content: "";
+    bottom: -20;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 0;
+    background-color: #ff305b;
+    margin: 0 auto;
+    right: 0;
+}
+
+.blog-area {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+
+}
+
+.blog-area img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blog-area iframe {
+    width: 100%;
+    height: 196;
+    margin-bottom: 10px;
+}
+
+.blog-area .inner {
+    background: #ffffff;
+}
+
+
+.inner a {
+    color: #333333;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.inner small {
+    text-transform: capitalize;
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.blog-area p {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+/* e.n.d     Our Blog   s e c t i o n  */
+
+/* s t a r t     Contact Us   s e c t i o n  */
+.contact-us {
+    background-color: white;
+    /* height: 100%; */
+    padding: 80px 0
+}
+
+.Contactus-header h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: capitalize;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.Contactus-header h2::after {
+    content: "";
+    bottom: -20;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 0;
+    background-color: #ff305b;
+    margin: 0 auto;
+    right: 0;
+}
+
+.contact-us .row {
+    text-align: center;
+
+}
+
+.row .input1-2 {
+    height: 34px;
+    padding: 6px 12px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+
+.row .Subject {
+    height: 34px;
+    padding: 6px 12px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.row button {
+    background-color: #ff305b;
+    color: #ffffff;
+    opacity: 1;
+    padding: 0px 20px;
+    line-height: 38px;
+    font-size: 14px;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+.row textarea {
+    border: 1px solid #ccc;
+    ;
+}
+
+/* e.n.d     Contact Us    s e c t i o n  */
+
+/* s t a r t     footer   s e c t i o n  */
+.footer {
+    background: #333333 none repeat scroll 0 0;
+    padding: 50px 0;
+    text-align: center;
+    height: 150PX;
+}
+
+.icons a {
+    padding: 10px;
+}
+
+.paragraph p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.icons {
+    margin-bottom: 10px;
+}
+
+.footer-area .paragraph {
+    color: #ffffff;
+    margin: 0 0 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.paragraph a {
+    color: #ff305b;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+/* e.n.d     footer    s e c t i o n  */
